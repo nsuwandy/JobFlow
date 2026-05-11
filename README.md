@@ -23,17 +23,6 @@ When setting up OAuth providers, use these callback URLs:
 
 For local dev: `http://localhost:3000/api/auth/callback/google` (or `/github`)
 
----
-
-## Deployment on Vercel
-
-1. Push your repo to GitHub
-2. Import project at [vercel.com](https://vercel.com)
-3. Add all environment variables from `.env.example` in Vercel's dashboard
-4. Set `NEXTAUTH_URL` to your production URL (e.g. `https://jobflow.vercel.app`)
-5. Deploy — the Vercel cron in `vercel.json` runs the reminder job daily at 9 AM UTC
-
----
 
 ## Project Structure
 
